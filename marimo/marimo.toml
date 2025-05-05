@@ -1,0 +1,45 @@
+[completion]
+activate_on_typing = true
+codeium_api_key = "7a48f411-8551-414c-af6a-b05a0f88dd6a"
+copilot = "codeium"
+
+[server]
+browser = "default"
+follow_symlink = false
+
+[formatting]
+line_length = 79
+
+[save]
+format_on_save = false
+autosave_delay = 1000
+autosave = "after_delay"
+
+[ai]
+rules = ""
+[ai.anthropic]
+
+[ai.google]
+
+[ai.open_ai]
+
+[display]
+theme = "light"
+cell_output = "below"
+dataframes = "rich"
+code_editor_font_size = 15
+default_width = "compact"
+
+[experimental]
+
+[runtime]
+auto_instantiate = false
+on_cell_change = "lazy"
+auto_reload = "off"
+
+[keymap]
+preset = "vim"
+[keymap.overrides]
+
+[package_management]
+manager = "pip"
